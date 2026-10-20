@@ -25,6 +25,7 @@
 | Repository | Highlights |
 |---|---|
 | **[ai-portrait-generator](https://github.com/tnKiness/ai-portrait-generator)** | Photo → AI portrait. PostgreSQL job queue (`SKIP LOCKED`, leases, fencing tokens, retries with backoff), per-user limits, OTP sign-in, pluggable AI providers, 31 tests on real Postgres, Docker, CI. Fastify · React · TypeScript |
+| **[ai-travel-chat](https://github.com/tnKiness/ai-travel-chat)** | Vietnam travel assistant for iOS/Android/web. Expo app + Fastify agent loop on the Claude API: SSE streaming, parallel tool calls (places, live weather), refusal fallbacks, append-only history, client-abort handling, 43 tests. Expo · React Native · TypeScript |
 | **[english-ai-platform](https://github.com/tnKiness/english-ai-platform)** | Local-first IELTS learning system. Modular monolith with enforced layering, SQLite job queue (leases, fencing, retry budgets), sandboxed AI gateway, versioned JSON Schema contracts, coordinated backup/restore, 217 tests. Fastify · React · TypeScript |
 
 ---
