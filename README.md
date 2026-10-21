@@ -16,7 +16,7 @@
 | **[CANIFA — Pattern of You](https://contest-patterns-of-life.canifa.com)** — AI-generated personal & family portraits | Main frontend + backend features: family "house" flow, picture sharing, per-account job limits, resume-in-progress generation | React · Vite · TypeScript · Fastify · PostgreSQL · job worker · GitHub Actions |
 | **Localis Platform** — RAG travel-consulting assistant | Chat UI (layout, sidebar, input, mobile output formatting) | FastAPI · MariaDB Vector · Jinja2 |
 | **[English AI Platform](https://github.com/tnKiness/english-ai-platform)** — personal IELTS learning system | Solo: architecture & implementation — modular monolith, job queue with lease/fencing/retry, backup/restore, rule engine | TypeScript · Fastify · React · SQLite · Vitest |
-| Client websites — [Bcons Đồng Nai](https://bconsdongnai.com.vn), Queen Plaza, Forever Spa Chairs… | Solo: design-to-production marketing sites, build pipelines, image optimization | React · Vite · Tailwind · Leaflet · vanilla JS |
+| Client websites — [Bcons Central Park](https://bconsdongnai.com.vn), Queen Plaza, Forever Spa Chairs… ([case studies](https://github.com/tnKiness/client-projects)) | Solo: design-to-production marketing sites, build pipelines, image optimization | React · Vite · Tailwind · Leaflet · vanilla JS |
 
 ---
 
@@ -25,6 +25,7 @@
 | Repository | Highlights |
 |---|---|
 | **[ai-portrait-generator](https://github.com/tnKiness/ai-portrait-generator)** | Photo → AI portrait. PostgreSQL job queue (`SKIP LOCKED`, leases, fencing tokens, retries with backoff), per-user limits, OTP sign-in, pluggable AI providers, 31 tests on real Postgres, Docker, CI. Fastify · React · TypeScript |
+| **[ai-travel-chat](https://github.com/tnKiness/ai-travel-chat)** | Vietnam travel assistant for iOS/Android/web. Expo app + Fastify agent loop on the Claude API: SSE streaming, parallel tool calls (places, live weather), refusal fallbacks, append-only history, client-abort handling, 43 tests. Expo · React Native · TypeScript |
 | **[english-ai-platform](https://github.com/tnKiness/english-ai-platform)** | Local-first IELTS learning system. Modular monolith with enforced layering, SQLite job queue (leases, fencing, retry budgets), sandboxed AI gateway, versioned JSON Schema contracts, coordinated backup/restore, 217 tests. Fastify · React · TypeScript |
 
 ---
