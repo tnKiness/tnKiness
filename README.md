@@ -16,7 +16,7 @@
 | **[CANIFA — Pattern of You](https://contest-patterns-of-life.canifa.com)** — AI-generated personal & family portraits | Main frontend + backend features: family "house" flow, picture sharing, per-account job limits, resume-in-progress generation | React · Vite · TypeScript · Fastify · PostgreSQL · job worker · GitHub Actions |
 | **Localis Platform** — RAG travel-consulting assistant | Chat UI (layout, sidebar, input, mobile output formatting) | FastAPI · MariaDB Vector · Jinja2 |
 | **[English AI Platform](https://github.com/tnKiness/english-ai-platform)** — personal IELTS learning system | Solo: architecture & implementation — modular monolith, job queue with lease/fencing/retry, backup/restore, rule engine | TypeScript · Fastify · React · SQLite · Vitest |
-| Client websites — [Bcons Đồng Nai](https://bconsdongnai.com.vn), Queen Plaza, Forever Spa Chairs… | Solo: design-to-production marketing sites, build pipelines, image optimization | React · Vite · Tailwind · Leaflet · vanilla JS |
+| Client websites — [Bcons Central Park](https://bconsdongnai.com.vn), Queen Plaza, Forever Spa Chairs… ([case studies](https://github.com/tnKiness/client-projects)) | Solo: design-to-production marketing sites, build pipelines, image optimization | React · Vite · Tailwind · Leaflet · vanilla JS |
 
 ---
 
